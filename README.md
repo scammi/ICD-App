@@ -7,5 +7,4 @@ When oppening the CVS file, the colums but be separeted by the "$" caracter.
 
 [ICD code as a text file ](https://www.cms.gov/Medicare/Coding/ICD10/2020-ICD-10-CM)
 [More information on ICD](https://www.who.int/classifications/icd/en/)
-
-[PHP code goes to])(https://phpenthusiast.com/blog/parse-csv-with-php)
+[More on the PHP code](https://phpenthusiast.com/blog/parse-csv-with-php)
