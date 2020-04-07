@@ -1,6 +1,6 @@
 <?php
 
-$filename = 'icd10cm_codes_2020.csv';
+$filename = 'icd10cm_order_2020.csv';
 
 // The nested array to hold all the arrays
 $the_big_array = [];
@@ -10,7 +10,7 @@ if (($h = fopen("{$filename}", "r")) !== FALSE)
 {
   // Each line in the file is converted into an individual array that we call $data
   // The items of the array are comma separated
-  while (($data = fgetcsv($h, 1000, "$")) !== FALSE)
+  while (($data = fgetcsv($h, 0, "$")) !== FALSE)
   {
     // Each individual array is being pushed into the nested array
     $data[1] = trim($data[1]);
